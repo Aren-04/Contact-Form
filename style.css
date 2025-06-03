@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background: #E6E6FA; 
+  color: #4B0082;       
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-family: "Knewave", system-ui;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4B0082; 
+}
+
+input[type="text"], #message {
+  font-family: "Faustina", serif;
+}
+
+.error, .success {
+  font-family: "Tinos", serif;
+}
+
+label {
+  font-family: "Chewy", system-ui; 
+  display: block;
+  margin-top: 15px;
+  color: #4B0082; 
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 3px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #4B0082; 
+  color: #E6E6FA;            
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3a006b; 
+}
